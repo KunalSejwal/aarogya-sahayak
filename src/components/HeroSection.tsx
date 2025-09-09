@@ -24,7 +24,12 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Button variant="health" size="xl" className="shadow-2xl">
+              <Button 
+                variant="health" 
+                size="xl" 
+                className="shadow-2xl"
+                onClick={() => document.getElementById('chat-section')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 <MessageCircle className="h-5 w-5 mr-2" />
                 Start Health Chat
               </Button>

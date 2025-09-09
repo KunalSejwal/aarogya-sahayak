@@ -14,16 +14,16 @@ const Header = () => {
               className="h-10 w-10 rounded-full"
             />
             <div>
-              <h1 className="text-lg font-semibold text-gov-navy">स्वास्थ्य सहायक</h1>
-              <p className="text-xs text-muted-foreground">Government of Odisha</p>
+              <h1 className="text-lg font-semibold text-gov-navy">आरोग्य सहायक</h1>
+              <p className="text-xs text-muted-foreground">Health Assistant</p>
             </div>
           </div>
           
           <nav className="hidden md:flex items-center space-x-6">
             <a href="#home" className="text-foreground hover:text-health-primary transition-colors">Home</a>
             <a href="#chat" className="text-foreground hover:text-health-primary transition-colors">Health Chat</a>
-            <a href="#info" className="text-foreground hover:text-health-primary transition-colors">Health Info</a>
-            <a href="#vaccination" className="text-foreground hover:text-health-primary transition-colors">Vaccination</a>
+            <a href="#info" className="text-foreground hover:text-health-primary transition-colors">Patient Info</a>
+            <a href="#calendar" className="text-foreground hover:text-health-primary transition-colors">Calendar</a>
           </nav>
 
           <div className="flex items-center space-x-3">

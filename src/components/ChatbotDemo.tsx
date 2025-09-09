@@ -67,7 +67,7 @@ const ChatbotDemo = () => {
   };
 
   return (
-    <section className="py-16 bg-muted/50">
+    <section id="chat-section" className="py-16 bg-muted/50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -88,7 +88,7 @@ const ChatbotDemo = () => {
                 className="h-10 w-10 rounded-full border-2 border-white/30"
               />
               <div>
-                <h3 className="font-semibold">स्वास्थ्य सहायक</h3>
+                <h3 className="font-semibold">आरोग्य सहायक</h3>
                 <p className="text-xs text-white/80">Online • Multilingual Support</p>
               </div>
             </div>
